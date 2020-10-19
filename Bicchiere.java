@@ -34,15 +34,10 @@ public class Bicchiere {
     }
 
     //Getters
-    public String getTipo() { return tipo; }
-    public String getMateriale() { return materiale; }
     public String getColore() { return colore; }
-    public String getLiquido() { return liquido; }
-    public double getLivello() { return livello; }
     public double getCapienza() { return capienza; }
     public double getResistenza() { return resistenza; }
     public int getDurezza() { return durezza; }
-    public boolean isRotto() { return rotto; }
     
     //
     public double riempi(String tipo, double quantità){
